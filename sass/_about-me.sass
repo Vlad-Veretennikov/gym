@@ -1,0 +1,78 @@
+.about-me 
+  background: #fff
+
+.about-me__inner 
+  background: #f8fbfa
+  display: flex
+  // padding: 120px 0 134px
+  min-height: 673px
+  align-items: center
+
+.about-me__img 
+  flex: 0 0 50%
+  height: 100%
+  position: relative
+  align-self: flex-start
+  img 
+    position: absolute
+    top: -30px
+    left: -100px
+  @media (max-width: $md1)
+    opacity: .8
+  @media (max-width: $md3)
+    flex: 0 0 5%
+  @media (max-width: $md4)
+    flex: 0 0 1%
+
+.about-me__text 
+  flex: 0 0 50%
+  padding: 0 0 0 20px
+  position: relative
+  z-index: 5
+  @media (max-width: $md3)
+    flex: 0 0 95%
+    padding: 100px 0 0
+  @media (max-width: $md4)
+    flex: 0 0 99%
+    padding: 150px 0 0
+
+.about-me__title 
+  margin: 0 0 50px
+  text-align: left
+  @media (max-width: $md3)
+    background: rgba(255, 255, 255, .9)
+    border-radius: 20px
+    padding: 20px
+    margin: 0 0 25px
+
+.about-me__paragraph 
+  color: #212f3d
+  font-size: 20px
+  font-weight: 500
+  line-height: 1.5
+  margin: 0 0 84px
+  @media (min-width: 768px)
+    max-width: 430px
+  @media (max-width: $md1)
+    background: rgba(255, 255, 255, .9)
+    border-radius: 20px
+    padding: 20px
+  @media (max-width: $md3)
+    margin: 0 0 30px
+    font-size: 17px
+
+.about-me__btn 
+  background: none
+  border: 1px solid #33c7ab
+  color: #33c7ab
+  @media (min-width: 992.98px)
+    &:hover
+      background: #33c7ab
+      color: #fff
+      transition: all .3s linear
+      transform: none
+  @media (max-width: $md3)
+    background: rgba(255, 255, 255, .9)
+  @media (max-width: $md4)
+    width: 100%
+    padding: 1.2em

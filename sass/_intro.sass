@@ -1,0 +1,61 @@
+.intro 
+  background: url(../images/intro/bg.jpg)no-repeat center / cover
+  @media (max-width: $md3)
+    background: url(../images/intro/bg5.jpg)no-repeat right center / cover
+  @media (max-width: $md4)
+    background: url(../images/intro/bg6.jpg)no-repeat center / cover
+
+.intro__inner 
+  height: 100vh
+  min-height: 800px
+  display: flex
+  flex-direction: column 
+  justify-content: center 
+  align-items: flex-start
+  @media (max-width: $md3)
+    justify-content: flex-end
+    align-items: center
+
+.intro__title 
+  color: #fff
+  font-size: 106px
+  font-weight: 700
+  line-height: 1.04
+  letter-spacing: 7.95px
+  font-family: $sffm
+  margin: 0 0 45px
+  @media (max-width: $md2)
+    font-size: 80px
+  @media (max-width: $md3)
+    font-size: 65px
+    background: rgba(0, 0, 0, .5)
+    align-self: flex-start
+  @media (max-width: $md4)
+    font-size: 37px
+    text-align: center
+    align-self: stretch
+    line-height: 1.2
+    border-radius: 15px
+
+.intro__subtitle 
+  color: #fff
+  font-size: 27px
+  font-weight: 500
+  margin: 0 0 80px
+  @media (max-width: $md3)
+    font-size: 22px
+    padding: 20px 30px
+    background: rgba(0, 0, 0, .5)
+    border-radius: 20px
+  @media (max-width: $md4)
+    font-size: 18px
+  @media (max-width: 400px)
+    font-size: 15px
+
+.intro__btn 
+  text-shadow: 0 2px 21px rgba(239, 255, 252, 0.46)
+  color: #fff
+  background-image: linear-gradient(-241deg, #48d7bb 0%, #0eb595 100%)
+  @media (max-width: 400px)
+    font-size: 16px
+

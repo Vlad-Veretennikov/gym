@@ -1,0 +1,89 @@
+.training 
+  background: #fff
+  padding: 120px 0 100px
+  position: relative
+  @media (max-width: $md3)
+    padding: 90px 0 70px
+
+.training__inner 
+  text-align: center
+
+.training__title 
+  margin: 0 0 50px
+  @media (max-width: $md3)
+    margin: 0 0 25px
+
+.training__sub-title 
+  color: #212f3d
+  font-size: 20px
+  font-weight: 500
+  margin: 0 0 70px
+  @media (max-width: $md3)
+    font-size: 18px
+
+.training__form 
+
+.training__input-box 
+  display: flex
+  margin: 0 0 30px
+  justify-content: center
+  @media (max-width: $md3)
+    flex-wrap: wrap
+
+.training__input 
+  flex: 0 0 361px
+  height: 65px
+  background: #eff4f3
+  border-radius: 10px
+  padding: 0 26px 
+  font-size: 17px
+  &::placeholder
+    color: #6e837f
+    font-size: 16px
+  @media (max-width: $md3)
+    flex: 0 0 65%
+  @media (max-width: $md4)
+    flex: 0 0 100%
+
+.training__input:focus
+  &::placeholder
+    opacity: 0
+
+.training__input--name 
+  margin: 0 50px 0 0
+  @media (max-width: $md3)
+    margin: 0 0 25px
+
+.training__input--phone 
+
+.training__attention 
+  color: #6e837f
+  font-size: 14px
+  margin: 0 0 39px
+  a
+    color: #6e837f
+    text-decoration: underline
+
+.training__btn 
+  background: linear-gradient(-241deg, #48d7bb 0%, #0eb595 100%)
+  display: inline-block
+  color: #fff
+  @media (max-width: 400px)
+    font-size: 17px
+    width: 100%
+    padding: 1.1em 0
+
+.training__ball-img
+  position: absolute
+  bottom: -400px
+  right: -400px
+  @media (max-width: $md1)
+    width: 400px
+    height: auto 
+    bottom: -250px
+    right: -200px
+  @media (max-width: $md2)
+    width: 300px
+    height: auto
+  @media (max-width: $md3)
+    display: none
